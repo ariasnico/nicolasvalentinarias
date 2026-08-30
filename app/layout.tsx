@@ -3,11 +3,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Nicolás Valentín Arias",
-  description: "construye productos. Buenos Aires.",
+  description: "Me gusta construir cosas.",
   robots: { index: true, follow: true },
   openGraph: {
     title: "Nicolás Valentín Arias",
-    description: "construye productos. Buenos Aires.",
+    description: "Me gusta construir cosas.",
     locale: "es_AR",
     type: "website",
   },

@@ -16,12 +16,12 @@ export default function Home() {
         </h1>
         <div aria-hidden="true" className="mt-8 h-[2px] w-10 bg-[var(--accent)] sm:mt-10" />
         <p className="mt-8 max-w-sm text-[1.05rem] leading-snug text-[var(--fg)]/80 sm:mt-10 sm:text-xl">
-          construye productos. Buenos Aires.
+          Me gusta construir cosas.
         </p>
         <nav aria-label="Enlaces" className="mt-12 flex flex-wrap items-center gap-x-7 gap-y-3 text-[0.95rem] sm:mt-14">
+          <a href="https://www.medicai.com.ar" rel="noopener noreferrer" className="text-[var(--fg)] inline-block py-1 underline decoration-[var(--fg)]/25 underline-offset-[0.28em] transition-colors hover:text-[var(--accent)] hover:decoration-[var(--accent)]">Founder @ MedicAI</a>
+          <a href="https://arqueo.ai" rel="noopener noreferrer" className="text-[var(--fg)] inline-block py-1 underline decoration-[var(--fg)]/25 underline-offset-[0.28em] transition-colors hover:text-[var(--accent)] hover:decoration-[var(--accent)]">Founder @ Arqueo</a>
           <a href="https://github.com/ariasnico" rel="noopener noreferrer" className="text-[var(--fg)] inline-block py-1 underline decoration-[var(--fg)]/25 underline-offset-[0.28em] transition-colors hover:text-[var(--accent)] hover:decoration-[var(--accent)]">GitHub</a>
-          <a href="https://dash-world.vercel.app" rel="noopener noreferrer" className="text-[var(--fg)] inline-block py-1 underline decoration-[var(--fg)]/25 underline-offset-[0.28em] transition-colors hover:text-[var(--accent)] hover:decoration-[var(--accent)]">DashWorld</a>
-          <a href="https://surf-trip-nu.vercel.app" rel="noopener noreferrer" className="text-[var(--fg)] inline-block py-1 underline decoration-[var(--fg)]/25 underline-offset-[0.28em] transition-colors hover:text-[var(--accent)] hover:decoration-[var(--accent)]">SurfTrip</a>
         </nav>
       </main>
       <footer className="px-6 pb-6 sm:px-10 md:px-16">
