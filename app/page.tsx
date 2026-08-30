@@ -19,7 +19,7 @@ export default function Home() {
           Me gusta construir cosas.
         </p>
         <p className="mt-5 max-w-md text-[0.95rem] leading-relaxed text-[var(--muted)] sm:text-[1.02rem]">
-          14 abr 2026. 1° fintech, hackathon Anthropic — individual.{" "}
+          14 abr 2026. 1° fintech, hackathon Anthropic y Kaszek — individual.{" "}
           <a
             href="https://www.linkedin.com/feed/update/urn:li:activity:7453425001199853568/"
             rel="noopener noreferrer"
