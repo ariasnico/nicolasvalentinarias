@@ -18,6 +18,16 @@ export default function Home() {
         <p className="mt-8 max-w-sm text-[1.05rem] leading-snug text-[var(--fg)]/80 sm:mt-10 sm:text-xl">
           Me gusta construir cosas.
         </p>
+        <p className="mt-5 max-w-md text-[0.95rem] leading-relaxed text-[var(--muted)] sm:text-[1.02rem]">
+          14 abr 2026. 1° fintech, hackathon Anthropic — individual.{" "}
+          <a
+            href="https://www.linkedin.com/feed/update/urn:li:activity:7453425001199853568/"
+            rel="noopener noreferrer"
+            className="text-[var(--fg)]/80 underline decoration-[var(--fg)]/25 underline-offset-[0.28em] transition-colors hover:text-[var(--accent)] hover:decoration-[var(--accent)]"
+          >
+            ITBA
+          </a>
+        </p>
         <nav aria-label="Enlaces" className="mt-12 flex flex-wrap items-center gap-x-7 gap-y-3 text-[0.95rem] sm:mt-14">
           <a href="https://www.medicai.com.ar" rel="noopener noreferrer" className="text-[var(--fg)] inline-block py-1 underline decoration-[var(--fg)]/25 underline-offset-[0.28em] transition-colors hover:text-[var(--accent)] hover:decoration-[var(--accent)]">Founder @ MedicAI</a>
           <a href="https://arqueo.ai" rel="noopener noreferrer" className="text-[var(--fg)] inline-block py-1 underline decoration-[var(--fg)]/25 underline-offset-[0.28em] transition-colors hover:text-[var(--accent)] hover:decoration-[var(--accent)]">Founder @ Arqueo</a>
