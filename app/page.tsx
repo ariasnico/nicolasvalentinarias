@@ -19,6 +19,17 @@ export default function Home() {
           Me gusta construir cosas.
         </p>
         <p className="mt-5 max-w-md text-[0.95rem] leading-relaxed text-[var(--muted)] sm:text-[1.02rem]">
+          Oct 2026. Fellow,{" "}
+          <a
+            href="https://puentes.antigravity.capital/"
+            rel="noopener noreferrer"
+            className="text-[var(--fg)]/80 underline decoration-[var(--fg)]/25 underline-offset-[0.28em] transition-colors hover:text-[var(--accent)] hover:decoration-[var(--accent)]"
+          >
+            Puentes
+          </a>{" "}
+          cohort 4 — Antigravity.
+        </p>
+        <p className="mt-2 max-w-md text-[0.95rem] leading-relaxed text-[var(--muted)] sm:text-[1.02rem]">
           14 abr 2026. 1° fintech, hackathon Anthropic y Kaszek — individual.{" "}
           <a
             href="https://www.linkedin.com/feed/update/urn:li:activity:7453425001199853568/"
