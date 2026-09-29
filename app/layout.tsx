@@ -1,15 +1,35 @@
 import type { Metadata, Viewport } from "next";
+import { DESCRIPTION, NAME, SITE_URL, TITLE, personJsonLd } from "./site";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Nicolás Valentín Arias",
-  description: "Me gusta construir cosas.",
-  robots: { index: true, follow: true },
+  metadataBase: new URL(SITE_URL),
+  title: TITLE,
+  description: DESCRIPTION,
+  applicationName: NAME,
+  authors: [{ name: NAME, url: SITE_URL }],
+  creator: NAME,
+  alternates: { canonical: "/" },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
+  },
   openGraph: {
-    title: "Nicolás Valentín Arias",
-    description: "Me gusta construir cosas.",
+    title: TITLE,
+    description: DESCRIPTION,
+    url: "/",
+    siteName: NAME,
     locale: "es_AR",
-    type: "website",
+    type: "profile",
+    firstName: "Nicolás",
+    lastName: "Arias",
+    username: "ariasnico",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: TITLE,
+    description: DESCRIPTION,
   },
 };
 
@@ -23,8 +43,14 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="es">
-      <body>{children}</body>
+    <html lang="es-AR">
+      <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd).replace(/</g, "\\u003c") }}
+        />
+        {children}
+      </body>
     </html>
   );
 }
